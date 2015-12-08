@@ -3,6 +3,6 @@ $(document).ready(function() {
 	$(container).attr('id', 'container').addClass('container');
 	$('body').append(container);
 
-	$(container).load('resources/app.html');
+	$(container).load('/resources/app.html');
 });
 

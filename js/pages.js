@@ -22,3 +22,6 @@ function login() {
 	return false;
 }
 
+function logout() {
+	changePage("login");
+}
