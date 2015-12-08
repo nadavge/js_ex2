@@ -1,0 +1,37 @@
+body
+{
+	background-color:#F9F9F9;
+}
+
+@media (min-width:800px)
+{
+	.container
+	{
+		width:800px;
+		margin:0 auto;
+	}
+}
+
+form.login
+{
+	width:200px;
+	margin:0 auto;
+}
+
+#messages
+{
+	width:300px;
+	text-align:center;
+	margin:0 auto;
+}
+
+.page
+{
+	display:none;
+}
+
+.page.active
+{
+	display:block;
+}
+
