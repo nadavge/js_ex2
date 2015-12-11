@@ -1,5 +1,4 @@
 var APP_HTML = `
-<script src="js/pages.js"></script>
 <div class="container">
 	<div class="text-center page-header">
 		<h1>Exercise 2<br/><small>Nadav Geva</small></h1>
@@ -43,8 +42,7 @@ var APP_HTML = `
 	<div id="calculator" class="page">
 		<button class="btn btn-success" onclick="new Calc();">Add calculator</button>
 	</div>
-</div>
-<script src="js/calc.js"></script>`;
+</div>`;
 
 function changePage(page_id) {
 	$(".page").removeClass("active");
