@@ -25,3 +25,4 @@ function login() {
 function logout() {
 	changePage("login");
 }
+
