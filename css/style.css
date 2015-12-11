@@ -37,12 +37,12 @@ form.login
 	float:right;
 	width:200px;
 	height:200px;
-	background:url('/images/me.jpg');
+	background:url('../images/me.jpg');
 }
 
 #myphoto:hover
 {
-	background:url('/images/me2.jpg');
+	background:url('../images/me2.jpg');
 }
 
 .page
